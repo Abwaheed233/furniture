@@ -1,4 +1,4 @@
-import feature1 from "../../../Public/featured/feature1.png"
+import feature1 from "../../../public/featured/feature1.png"
 import Image from "next/image"
 import { IoCheckmarkCircleOutline } from "react-icons/io5"
 import { FaRegCreditCard } from "react-icons/fa6";
