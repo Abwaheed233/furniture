@@ -1,12 +1,12 @@
 import Image from "next/image"
 
-import deskchair from "../../../Public/topCategory/deskchair.png"
-import wingchair from "../../../Public/topCategory/wingchair.png"
-import woodenchair from "../../../Public/topCategory/woodenchair.png"
-import feature1 from "../../../Public/featured/feature1.png"
-import feature3 from "../../../Public/featured/feature3.png"
-import feature4 from "../../../Public/featured/feature4.png"
-import foamchair from "../../../Public/foamchair.png"
+import deskchair from "../../../public/topCategory/deskchair.png"
+import wingchair from "../../../public/topCategory/wingchair.png"
+import woodenchair from "../../../public/topCategory/woodenchair.png"
+import feature1 from "../../../public/featured/feature1.png"
+import feature3 from "../../../public/featured/feature3.png"
+import feature4 from "../../../public/featured/feature4.png"
+import foamchair from "../../../public/foamchair.png"
 
 
 export default function TopCategories() {
