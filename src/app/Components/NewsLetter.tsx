@@ -1,11 +1,11 @@
 import Image from "next/image"
 
-import feature3 from "../../../Public/featured/feature3.png"
-import feature4 from "../../../Public/featured/feature4.png"
-import our1 from "../../../Public/ourProducts/our1.png"
+import feature3 from "../../../public/featured/feature3.png"
+import feature4 from "../../../public/featured/feature4.png"
+import our1 from "../../../public/ourProducts/our1.png"
 import wingchair from "../../../public//topCategory/wingchair.png"
-import deskchair from "../../../Public/topCategory/deskchair.png"
-import woodenchair from "../../../Public/topCategory/woodenchair.png"
+import deskchair from "../../../public/topCategory/deskchair.png"
+import woodenchair from "../../../public/topCategory/woodenchair.png"
 
 export default function NewsLetter (){
     const NewsLetter = [
