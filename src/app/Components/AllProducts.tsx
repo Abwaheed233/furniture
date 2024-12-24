@@ -1,16 +1,16 @@
 import Image from "next/image"
 
-import feature1 from "../../../Public/featured/feature1.png"
-import feature2 from "../../../Public/featured/feature2.png"
-import feature3 from "../../../Public/featured/feature3.png"
-import feature4 from "../../../Public/featured/feature4.png"
-import foamchair from "../../../Public/foamchair.png"
-import our from "../../../Public/ourProducts/our.png"
-import our1 from "../../../Public/ourProducts/our1.png"
+import feature1 from "../../../public/featured/feature1.png"
+import feature2 from "../../../public/featured/feature2.png"
+import feature3 from "../../../public/featured/feature3.png"
+import feature4 from "../../../public/featured/feature4.png"
+import foamchair from "../../../public/foamchair.png"
+import our from "../../../public/ourProducts/our.png"
+import our1 from "../../../public/ourProducts/our1.png"
 import wingchair from "../../../public//topCategory/wingchair.png"
-import deskchair from "../../../Public/topCategory/deskchair.png"
-import woodenchair from "../../../Public/topCategory/woodenchair.png"
-// import new from "../../../public/new.png"
+import deskchair from "../../../public/topCategory/deskchair.png"
+import woodenchair from "../../../public/topCategory/woodenchair.png"
+
 
 
 export default function AllProducts() {

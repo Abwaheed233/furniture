@@ -1,10 +1,10 @@
 import Image from "next/image"
 
-import feature1 from "../../../Public/featured/feature1.png"
-import feature2 from "../../../Public/featured/feature2.png"
-import feature3 from "../../../Public/featured/feature3.png"
-import feature4 from "../../../Public/featured/feature4.png"
-import wingchair from "../../../Public/topCategory/wingchair.png"
+import feature1 from "../../../public/featured/feature1.png"
+import feature2 from "../../../public/featured/feature2.png"
+import feature3 from "../../../public/featured/feature3.png"
+import feature4 from "../../../public/featured/feature4.png"
+import wingchair from "../../../public/topCategory/wingchair.png"
 import { IoCartOutline } from "react-icons/io5";
 
 export default function Product() {
