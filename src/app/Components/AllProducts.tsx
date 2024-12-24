@@ -10,7 +10,11 @@ import our1 from "../../../public/ourProducts/our1.png"
 import wingchair from "../../../public//topCategory/wingchair.png"
 import deskchair from "../../../public/topCategory/deskchair.png"
 import woodenchair from "../../../public/topCategory/woodenchair.png"
+<<<<<<< HEAD
 
+=======
+// import new from "../../../public/new.png"
+>>>>>>> 7ce8f28e58c25ecc6d9590d2146dfa38bfc78b6d
 
 
 export default function AllProducts() {

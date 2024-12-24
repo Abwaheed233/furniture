@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import feature4 from "../../../Public/featured/feature4.png"
+import feature4 from "../../../public/featured/feature4.png"
 import wingchair from "../../../public/topCategory/wingchair.png"
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { FaRegHeart } from "react-icons/fa";
