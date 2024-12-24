@@ -24,7 +24,7 @@ export default function ContactUs() {
                         </div>
 
                         <div className="w-full lg:w-48 lg:flex gap-5 space-y-2 lg:space-y-0 lg:items-start place-items-center">
-                            <FaPhoneAlt className="w-6 h-6 md:w-9 md:h-9" />
+                            <FaPhoneAlt className="w-6 h-6" />
                             <div className="flex flex-col items-center lg:items-start space-y-2 lg:space-y-0">
                                 <h2 className="text-2xl text-black font-medium">Phone</h2>
                                 <a className="text-base text-black font-normal">0315-3906279<br/>0311-3867522</a>
@@ -67,7 +67,7 @@ export default function ContactUs() {
                 </div>
 
 
-                <div className="grid grid-cols-1 place-items-center md:flex justify-between items-center space-y-5 md:space-y-0 w-full h-auto bg-[#f4f4f5] px-6 md:px-10 lg:px-16 md:py-12 py-6">
+                <div className="grid grid-cols-1 place-items-center place-content-center md:flex justify-between items-center space-y-5 md:space-y-0 w-full h-auto bg-[#f4f4f5] px-6 md:px-10 lg:px-16 md:py-12 py-6">
                     <div className='md:flex place-items-center gap-4'>
                         <Image className='h-10 w-10 md:h-14 md:w-14 lg:w-20 lg:h-20' src={trophy} alt="award"/>
                         <div>

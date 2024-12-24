@@ -5,6 +5,7 @@ import { RxCross2 } from "react-icons/rx";
 
 import { IoCheckmarkSharp } from "react-icons/io5";
 import { BsExclamationCircle } from "react-icons/bs";
+import Link from 'next/link';
 export default function Header() {
 
     const [isMenuOpen, setMenuOpen] = useState(false); // State to manage menu visibility
@@ -17,7 +18,7 @@ export default function Header() {
         <>
             <main>
                 <div className="w-full h-auto border-b-gray-700 border-b border-opacity-10">
-                    <div className="w-full h-10 bg-[#272343] px-5 md:px-10 lg:px-28 xl:px-48">
+                    <div className="w-full h-10 bg-[#272343] px-5 md:px-10 lg:px-28 xl:px-48 py-1">
                         <div className="flex justify-between py-1">
                             <div className="flex items-center text-white gap-1 md:gap-4">
                                 <IoCheckmarkSharp className="scale-100 md:scale-125" />
@@ -42,7 +43,7 @@ export default function Header() {
 
 
                     <div className="flex justify-between items-center w-full h-24 bg-[#F0F2F3] px-5 md:px-10 lg:px-28 xl:px-48">
-                        <div className="flex items-center gap-2">
+                        <Link href="../"><div className="flex items-center gap-2">
                             <svg className="lg:w-[40px] lg:h-[40px] w-[20px] h-[20px] md:w-[30px] md:h-[30px]" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clipPath="url(#clip0_1_890)">
                                     <path d="M39.9938 19.7464C39.9286 18.4433 39.3566 17.2173 38.3999 16.3301C37.4432 15.4429 36.1776 14.9649 34.8732 14.9979C33.5689 15.031 32.3292 15.5727 31.4187 16.5072C30.5082 17.4418 29.9991 18.6952 30 20V28.3333C30 27.8913 29.8244 27.4674 29.5119 27.1548C29.1993 26.8422 28.7754 26.6667 28.3334 26.6667H11.6667C11.2247 26.6667 10.8007 26.8422 10.4882 27.1548C10.1756 27.4674 10 27.8913 10 28.3333V20C9.99996 19.0833 9.74791 18.1843 9.27143 17.4013C8.79495 16.6182 8.11237 15.9812 7.2983 15.5598C6.48422 15.1385 5.56999 14.949 4.65552 15.0122C3.74105 15.0754 2.86154 15.3887 2.11312 15.9179C1.3647 16.4472 0.776167 17.172 0.411857 18.0131C0.0475467 18.8543 -0.0785237 19.7794 0.0474254 20.6873C0.173374 21.5953 0.546496 22.4511 1.12601 23.1614C1.70552 23.8716 2.46912 24.4088 3.33334 24.7144V33.3333C3.33334 33.7753 3.50893 34.1993 3.8215 34.5118C4.13406 34.8244 4.55798 35 5.00001 35H6.66668V38.3333H10V35H30V38.3333H33.3334V35H35C35.4421 35 35.866 34.8244 36.1786 34.5118C36.4911 34.1993 36.6667 33.7753 36.6667 33.3333V24.7144C37.6824 24.3551 38.5549 23.6775 39.1544 22.7823C39.7539 21.8872 40.0483 20.8224 39.9938 19.7464Z" fill="#029FAE" />
@@ -54,8 +55,8 @@ export default function Header() {
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <h1 className="text-[16px] md:text-[22] lg:text-[26px] font-medium text-[#272343]">Comforty</h1>
-                        </div>
+                            <h1 className="cursor-pointer text-[16px] md:text-[22] lg:text-[26px] font-medium text-[#272343]">Comforty</h1>
+                        </div></Link>
                         <div className="w-28 h-12 p-2 flex justify-between items-center cursor-pointer hover:bg-slate-50 scale-75 md:scale-90 lg:scale-100 bg-white rounded-lg">
                             <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.52087 0.979126L3.42754 1.30913L4.31029 11.826C4.3442 12.2399 4.5329 12.6257 4.83873 12.9066C5.14457 13.1875 5.54506 13.3427 5.96029 13.3413H15.9611C16.3587 13.3417 16.7431 13.1986 17.0436 12.9382C17.344 12.6778 17.5404 12.3177 17.5965 11.9241L18.4673 5.91263C18.4905 5.75275 18.482 5.58987 18.4422 5.43329C18.4024 5.27671 18.3322 5.12951 18.2354 5.00011C18.1387 4.8707 18.0175 4.76163 17.8786 4.67913C17.7397 4.59663 17.5859 4.54231 17.426 4.51929C17.3673 4.51288 3.73371 4.50829 3.73371 4.50829" stroke="#272343" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -77,21 +78,23 @@ export default function Header() {
                         </div>
 
                         <div className="hidden md:flex gap-5 text-[#636270] font-medium text-[10px] md:text-[14px]">
-                            <h1>Home</h1>
-                            <h1>Shop</h1>
-                            <h1>Product</h1>
-                            <h1>Pages</h1>
-                            <h1>About</h1>
+                            <Link href="../allproducts"><h1>All Products</h1></Link>
+                            <Link href="../product"><h1>Product</h1></Link>
+                            <Link href="../cart"><h1>Cart</h1></Link>
+                            <Link href="../faq"><h1>FAQs</h1></Link>
+                            <Link href="../about"><h1>About</h1></Link>
+                            <Link href="../contact"><h1>Contact</h1></Link>
                         </div>
                         <h2 className="text-[#636270] font-medium text-[10px] md:text-[14px]">Contact: <span className="text-[#272343]">(+92) 315-3906279</span></h2>
                     </div>
                     {isMenuOpen && (
                         <div className="md:hidden w-auto flex flex-col gap-3 px-5 py-3 text-[#636270] font-medium text-[14px]">
-                            <h1>Home</h1>
-                            <h1>Shop</h1>
-                            <h1>Product</h1>
-                            <h1>Pages</h1>
-                            <h1>About</h1>
+                            <Link href="../allproducts"><h1>All Products</h1></Link>
+                            <Link href="../product"><h1>Product</h1></Link>
+                            <Link href="../cart"><h1>Cart</h1></Link>
+                            <Link href="../faq"><h1>FAQs</h1></Link>
+                            <Link href="../about"><h1>About</h1></Link>
+                            <Link href="../contact"><h1>Contact</h1></Link>
                         </div>
                     )}
                 </div>
